@@ -1,0 +1,78 @@
+/* login page*/
+body{
+    background-color: #24353F;
+}
+h1{
+    color: #17A2B8;
+}
+.login{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+}
+.login input::placeholder{
+    color: white ;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login button{
+    background-color: transparent;
+    color: #17A2B8;
+    cursor: pointer;
+    border-color: #17A2B8;
+    display: inline-block;
+    transition: all 0.4s;
+    width: 90%;
+
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.login button:hover{
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.login input{
+    width: 90%;
+}
+
+/* home page*/
+.navbar{
+    width: 85%;
+    margin: auto;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.navbar button{
+    background-color: transparent;
+    color: white;
+    opacity: 0.8;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border-color: #FFC107;
+    font-size: 16px;
+}
+.navbar .btn:hover{
+    background-color: #FFC107 ;
+    color: white;
+    opacity: 1;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+main .container{
+    height: 100vh;
+    
+}
+main .shadow{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
