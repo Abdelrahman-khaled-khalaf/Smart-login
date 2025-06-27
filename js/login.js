@@ -39,7 +39,7 @@ function logIn(){
 
     }
     else{
-        window.location.href = "../Home.html";
+        window.location.href = "Home.html";
         
     }
     

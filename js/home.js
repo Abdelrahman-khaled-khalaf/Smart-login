@@ -9,5 +9,5 @@ logout_btn.addEventListener("click",function(){
 
 function logout(){
     localStorage.removeItem("sessionName")
-    window.location.href=("../index.html")
+    window.location.href=("index.html")
 }
